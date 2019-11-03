@@ -1,0 +1,116 @@
+	<!DOCTYPE html>
+	<html>
+<head>
+<meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="lab3.css">
+</head>
+
+<body>
+	<header>
+	<div class="header1">
+	<div class="header11">
+	<i class="fas fa-tv fa-3x" style="color:#D3D3D3"></i>
+	</div>
+	<div class="header11">
+	<p><font color="#D3D3D3"><strong>1.Streamer configuration</strong></font></p>
+	</div>
+	</div>
+<div class="header2">
+	<div class="header11">
+	<i class="far fa-address-card fa-3x" style="color:#D3D3D3"></i>
+	</div>
+	<div class="header11">
+	<p><font color="#D3D3D3"><strong>2.Your personal details</strong></font></p></div></div>
+	
+<div class="header3">
+	<div class="header11">
+	<i class="far fa-credit-card fa-3x" style="color:#4cdb6e"></i>
+	</div>
+	<div class="header11">
+	<p><strong>3.Payment method</strong></p></div></div>
+	</header>
+<div class="mainblock">
+<div class="block1">
+<div class="title1"><h3>Choose your payment method</h3></div>
+<form action="#">
+<div class="pay">
+
+<div class="paypal">
+<label>
+ <input type="radio"  value="figma"  name="tech" /> Paypal <div class="paypal1"></div>
+<p> <font size="2">Safe payment online.Credit card needed. 
+<br>PayPal account is not necessary</font></p>
+</div>
+</label>
+<div class="card">
+<label>
+  <input type="radio" value="figma"  name="tech" /> Credit Card <div class="card1"></div>
+  <p> <font size="2">Safe money transfer using your bank account. 
+  <br>Visa, maestro, discover, american express.</font></p>
+  </label>
+  </div>
+   
+ <div class="card2">
+ <p><font size="1"><strong>CREDIT CARD NUMBER</strong></font></p>
+ <input type="text" name="card" id="cardinput" maxlength="16" placeholder=" "pattern="[0-9]{16}"/>
+<span class="form__error">Это поле должно содержать номер вашей карты состоящий из 16 цифр</span>
+ </div>
+
+ <div class="cvv"><p><font size="1"><strong>CVV CODE  </strong></font> <a href="#"><img src="img/circle.png" width="12" 
+   height="12"></a></p>
+ <i class="fa fa-credit-card" aria-hidden="true"></i>
+ <input type="password" name="CVV" id="cardcvv"maxlength="3"placeholder=" "pattern="[0-9]{3}"/>
+<span class="form__error">Введите 3 цифры указаные на обороте карты</span>
+ </div>
+  <div class="date"><p><font size="1"><strong>EXPIRY DATE</strong></font></p>
+  <input type="text" name="DATE" id="carddate" maxlength="5" placeholder="MM/YY" pattern="\d{2}[\/]\d{2}"/>
+ <span class="form__error">Укажите дату окончания действия карты в формате MM/YY</span>
+  </div>
+  <div class="cardname">
+ <p><font size="1"><strong>NAME ON CARD</strong></font></p>
+ <input type="text" name="OWNER" id="cardname" pattern="[A-Za-z\s]+$"placeholder=" "/>
+ <span class="form__error">Укажите имя и фамилию владельца карты расположенную на лицевой стороне карты </span>
+ </div>
+  
+</div>
+</div>
+
+<div class="block2">
+<div class="title2"><h3>Summary</h3></div>
+<div class="summary">
+<div class="text1">
+<p>Packet: <strong>Full package(100+ channels)</strong></p>
+<p>Duration: <strong>3m.</strong></p>
+</div>
+<div class="text2">
+<p class="leftstr">Translations:</p>
+<p class="rightstr">&#8364; 159.99</p>
+<p class="leftstr">Discount for points:</p>
+<p class="rightstr">&#8364; 0.00</p>
+<p class="leftstr">Gift card discount:</p>
+<p class="rightstr">&#8364; 0.00</p>
+</div>
+<div class="text3">
+<p class="leftstr"><a href="#" style="color: #4cdb6e; "><font size="1">Have a discount code?</font></a></p> 
+<p class="rightstr"><font size="5" color="#4cdb6e;">&#8364; 159.99</font></p></div>
+<div class="text4">
+<div class="text5"><div class="box1"><i class="fas fa-box-open fa-2x"style="color:#D3D3D3"></i></div>
+  <p><font size="2"> <strong>Striming box shiping information</strong></font>
+<font size="2" color="grey"><br>Lorem Ipsumas their default model text, and a serach for 'lorem ipsum' will uncover many web.</p></font></div>
+<div class="text6"><div class="box2"><i class="fas fa-wallet fa-2x"style="color:#D3D3D3"></i></div>
+   <p><font size="2"> <strong>30 days money back guarantee</strong></font>
+<font size="2" color="grey"><br>Contrary to poppular belief, Lorem Ipsum is not simply random.</p></font>
+   </div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="goback">
+ <button type="reset" onclick="window.open('', '_self', ''); window.close();"><strong>GO BACK</strong></button></div>
+<div class="checkout">
+  <button type="submit" formmethod="get" formaction="#"><strong>CHECK OUT 	&#8594;</strong></button></div> 
+  <div class="text"><p style="text-indent: 170px;"><font size="1">By clicking check out buttom you agree with our terms and conditions and money back gurantee.Thank you fo trusting our service</font></p></div>
+  </form></footer>
+</body>
+	</html>
